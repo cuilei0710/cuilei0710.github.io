@@ -22,7 +22,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon.svg',
+    logo: '/logo.svg',
 
     nav,
 
