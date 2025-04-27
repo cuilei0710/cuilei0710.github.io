@@ -7,12 +7,8 @@ const image = ref<DefaultTheme.ThemeableImage>('');
 
 const updateImage = () => {
     const randomImageNumber = getRandomInt(1, 11);
-    image.value = getImageURL(randomImageNumber);
+    image.value = `/index/hero_${randomImageNumber}.svg`;
 };
-
-const getImageURL = (index: number) => {
-    return `/index/hero_${index}.svg`;
-}
 
 const handleImageError = () => {
     image.value = '/index/hero_1.svg';
