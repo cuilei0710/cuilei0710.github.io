@@ -43,5 +43,10 @@ export default defineConfig({
     editLink,
 
     search
+  },
+  vite: {
+    server: {
+      host: '0.0.0.0',
+    }
   }
 })
