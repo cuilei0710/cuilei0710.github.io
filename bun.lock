@@ -3,10 +3,10 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "vue": "^3.5.13",
+        "vue": "latest",
       },
       "devDependencies": {
-        "vitepress": "^1.6.3",
+        "vitepress": "latest",
       },
     },
   },
