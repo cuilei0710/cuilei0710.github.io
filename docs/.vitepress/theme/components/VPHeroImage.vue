@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { DefaultTheme, VPImage } from 'vitepress/theme';
 import { getRandomInt } from '../../shared/utils';
-import { ref } from 'vue';
+import { onBeforeMount, ref } from 'vue';
 
 const image = ref<DefaultTheme.ThemeableImage>('');
 
@@ -18,7 +18,9 @@ const handleImageError = () => {
     image.value = '/index/hero_1.svg';
 };
 
-updateImage();
+onBeforeMount(() => {
+    updateImage();
+})
 </script>
 
 <template>
