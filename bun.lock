@@ -2,6 +2,9 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
+      "dependencies": {
+        "vue": "^3.5.13",
+      },
       "devDependencies": {
         "vitepress": "^1.6.3",
       },

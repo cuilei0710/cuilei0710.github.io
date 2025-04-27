@@ -3,23 +3,32 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: < ~/ > & Note
+  text: 苦瓜大王的文档站
+  # name: 苦瓜大王的文档站
+  # text: 繁华落尽见真淳
+  tagline: 繁华落尽见真淳
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 笔记
+      link: /
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
+      text: 任务清单
+      link: /task
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon:
+      src: /index/features_a.svg
+      alt: alt
+    title: 心怀好奇
+    details: 昨夜西风凋碧树。独上高楼，望尽天涯路
+  - icon:
+      src: /index/features_b.svg
+      alt: alt
+    title: 谦卑之心
+    details: 衣带渐宽终不悔，为伊消得人憔悴
+  - icon:
+      src: /index/features_c.svg
+      alt: alt
+    title: 岁月浸润
+    details: 众里寻他千百度，蓦然回首，那人却在，灯火阑珊处
 ---
-
