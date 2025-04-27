@@ -8,7 +8,6 @@ const image = ref<DefaultTheme.ThemeableImage>(`/index/hero_${getRandomInt(1, 11
 const handleImageError = () => {
     image.value = '/index/hero_1.svg';
 };
-
 </script>
 
 <template>
