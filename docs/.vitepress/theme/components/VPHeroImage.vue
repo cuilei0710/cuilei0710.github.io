@@ -3,7 +3,7 @@ import { DefaultTheme, VPImage } from 'vitepress/theme';
 import { getRandomInt } from '../../shared/utils';
 import { ref } from 'vue';
 
-const image = ref<DefaultTheme.ThemeableImage>(`/index/hero_${getRandomInt(1, 11)}.svg`);
+const image = ref<DefaultTheme.ThemeableImage>(`/index/hero_${getRandomInt(1, 11)}.svg?t=${Date.now()}`);
 
 const handleImageError = () => {
     image.value = '/index/hero_1.svg';
