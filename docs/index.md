@@ -5,8 +5,6 @@ layout: home
 hero:
   name: < ~/ > & Note
   text: 苦瓜大王的文档站
-  # name: 苦瓜大王的文档站
-  # text: 繁华落尽见真淳
   tagline: 繁华落尽见真淳
   actions:
     - theme: brand
@@ -15,6 +13,9 @@ hero:
     - theme: alt
       text: 任务清单
       link: /task
+    - theme: brand
+      text: 荔枝
+      link: /lichee
 features:
   - icon:
       src: /index/features_a.svg
@@ -32,3 +33,5 @@ features:
     title: 岁月浸润
     details: 众里寻他千百度，蓦然回首，那人却在，灯火阑珊处
 ---
+
+<Confetti />

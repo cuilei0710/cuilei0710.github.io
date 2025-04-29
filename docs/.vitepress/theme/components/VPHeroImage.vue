@@ -20,5 +20,5 @@ onMounted(() => {
 </script>
 
 <template>
-    <VPImage v-if="image" class="image-src" :image @error="handleImageError" />
+    <VPImage v-if="image" class="image-src rounded-3xl origin-top-left rotate-2 " :image @error="handleImageError" />
 </template>
